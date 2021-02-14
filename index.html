@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>Realidade do mercado</title>
+</head>
+
+<body>
+
+    <div id="relogio">
+        <script>
+            function Relogio() {
+                var data = new Date();
+                var hr = data.getHours();
+                var min = data.getMinutes();
+                var s = data.getSeconds();
+
+                var tempo_total = hr + ":" + min + ":" + s;
+                var tempo = window.document.getElementById('relogio');
+                tempo.innerHTML = tempo_total;
+            }
+            setInterval(Relogio, 500);
+        </script>
+    </div>
+
+    <div class="texto">
+        <h1> Já passou a hora de me convidar para sua empresa</h1>
+    </div>
+
+
+    <div class="github">
+        <h2>Github</h2>
+        <p>Conheça meus projetos no Github</p>
+        <img src="./IMG/github1.png" alt="Logo Github">
+    </div>
+
+    <div class="linkedin">
+        <h2>Linkedin</h2>
+        <p>Conheça meus histórico profissional</p>
+        <img src="./IMG/linkedin1.png" alt="Logo Whatsapp">
+    </div>
+
+
+    <div class="email">
+        <h2>Email</h2>
+        <p>Entre em contato</p>
+        <img src="./IMG/email1.png" alt="Logo Email">
+    </div>
+
+
+
+
+
+</body>
+
+<footer>
+    <p>2021 - dev.finance$ by Lucas Dias</p>
+</footer>
+
+
+</html>
