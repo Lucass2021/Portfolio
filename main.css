@@ -38,19 +38,21 @@ h1 {
 .Main h2{
     display: inline-block;
     position: relative;
+    
     right: -300px;
     top: -300px;
     color: #ffffff;
 }
 
 .Main p{
-  display: inline-block;
+  display: flex;
   align-items: center;
+  text-align: center; 
   
   position: relative;
-  right: -20px;
-  top: -210px;
-  left: -100px;
+  right: -200px;
+  top: -280px;
+  left: 350px;
 
   font-size: 1rem;
   font-weight: bold;
@@ -58,26 +60,18 @@ h1 {
 }
 
 
-
-
-
-
-
-
-
-
-
 .links{
   display: flex;
-  width: 50%;
-  margin: 0 auto;
+  width: 100%;
+  margin-left: auto;
   justify-content: space-between;
+  
 }
 
 
 .github{
   position: relative;
-  left: -100px;
+  left: 500px;
   padding: 1rem;
   text-align: center;
   color: white;
@@ -94,7 +88,7 @@ h1 {
 
 .email{
   position: relative;
-  right: -40px;
+  right: 600px;
   padding: 1rem;
   text-align: center;
   color: white;
