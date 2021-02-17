@@ -13,7 +13,7 @@
 
 ## 📝 Descrição
 
->💻 Portifólio em desenvolvimento
+>💻 Portfolio em desenvolvimento
 
 
 
