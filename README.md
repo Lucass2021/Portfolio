@@ -36,7 +36,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 * VS Code;
 * HTML;
 * CSS;
-* JavaScript;
+* JavaScript.
 
 
 ---
