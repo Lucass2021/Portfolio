@@ -13,7 +13,7 @@
 
 ## 📝 Description
 
->💻 Personal Portfolio with my personal projects.
+>💻 Personal Portfolio with my personal projects, the main porpuse is to show what i've done recently.
 
 
 ---
