@@ -2,26 +2,25 @@
     <img src="logo1.png"/>
 </h1>
 
-# Sumário
+# Summary
 
-- [Descrição](#📝-Descrição)
-- [Projeto](#💻-Projeto)
-- [Tecnologias utilizadas](#🚀-Tecnologias-utilizadas)
-- [Status do Projeto](#🎯-Status-do-Projeto)
-
----
-
-## 📝 Descrição
-
->💻 Portfolio em desenvolvimento
-
-
+- [Description](#📝-Description)
+- [Project](#💻-Project)
+- [Technologies](#🚀-Technologies)
+- [Project Stats](#🎯-Project-Stats)
 
 ---
 
-## 💻 Projeto
+## 📝 Description
 
-* <b>Nonea</b>: 
+>💻 Personal Portfolio with my personal projects.
+
+
+---
+
+## 💻 Project
+
+* <b>Clock</b>: Feature made with basic JavaScript
 
 <h1 align="center">
     <img src="read.00.PNG"/>
@@ -31,8 +30,8 @@
 
 ---
 
-## 🚀 Tecnologias utilizadas
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+## 🚀 Technologies
+This project was developed with the following technologies:
 * VS Code;
 * HTML;
 * CSS;
@@ -41,34 +40,35 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ---
 
-## 🎯 Status do Projeto
+## 🎯 Project Stats
 
-Este projeto atualmente está <b>em progresso </b>.
+This project is currently under development.
 
----
-
-## :heavy_check_mark: A ser adicionado
-
-- Projetos já existentes no Github
-- Fontes distintas
-- Noções de Design
 
 ---
 
-## :handshake: Seja um contribuidor
+## :heavy_check_mark: To do list
 
-Tem alguma ideia que poderia alavancar ainda mais o projeto, e deseja implementar? É simples!
-
-1. Faça um fork do projeto
-2. Modifique o que achar necessário
-3. Faça o commit das mudanças
-4. Crie um Pull Request
+- Add Projects
+- Add Header
+- Add Body Content
+- Add Design Formatation (UX)
 
 ---
 
+## :handshake: Become a Contributor
+
+Do you have any ideas that you want to implement it? It's simple!
+
+1. Fork the project
+2. Modify what you think is necessary
+3. Commit the changes
+4. Create a Pull Request
+
+
 ---
 
-## Autor
+## Author
 
 - Projetos - [Lucass2021](https://github.com/Lucass2021)
 
