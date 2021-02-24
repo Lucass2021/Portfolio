@@ -42,7 +42,7 @@ This project was developed with the following technologies:
 
 ## 🎯 Project Stats
 
-This project is currently under development.
+This project is currently under <b>development.</b>
 
 
 ---
