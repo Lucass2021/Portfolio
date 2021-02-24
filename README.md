@@ -21,7 +21,9 @@
 ## 💻 Project
 
 * <b>Clock</b>: Feature made with basic JavaScript
-
+* <b>Background</b>: Change colors to black and white
+* <b>Body</b>: Add body and header content
+This project is currently under <b>development.</b>
 <h1 align="center">
     <img src="read.00.PNG"/>
 </h1>
