@@ -3,15 +3,18 @@
     padding: 0;
     box-sizing: border-box; 
     font-family: 'Roboto', sans-serif;
+    
   }
 
+  body{
+    overflow-x: hidden;
+  }
 
+/* Home page */
   .container{
-  
     width: 100%;
     height: auto;
     position: relative;
-
   }
 
   .container img{
@@ -58,7 +61,7 @@
   color: #900ce7; 
   filter: drop-shadow(3px 3px 5px white);
   font-size: 2rem;
- 
+  font-family: "Helvetica Neue", sans-serif;
 }
 
 
@@ -86,14 +89,12 @@
   font-size: 1.5rem;
   z-index: 5;
   transition: all 0.5s ease-out;
-  
-  
 }
 
 .nav-bar li:hover{
 cursor:pointer;
-color: #ffffff; 
-filter: drop-shadow(2px 2px   5px white);
+color: #9808f8; 
+filter: drop-shadow(2px 2px  20px white);
 }
 
 .whatsapp-icon img{
@@ -104,10 +105,10 @@ right: 2%;
 bottom: 5%;
 z-index: 20;
 
-	border-radius: 50%;
-	box-shadow: 0 0 0 0 rgb(69, 152, 27);
-	transform: scale(1);
-	animation: pulse 2s infinite;
+border-radius: 50%;
+box-shadow: 0 0 0 0 rgb(69, 152, 27);
+transform: scale(1);
+animation: pulse 2s infinite;
 
 }
 
@@ -116,6 +117,8 @@ cursor:pointer;
 color: #45981b; 
 filter: drop-shadow(5px 5px   5px white);
 }
+
+/* About page */
 
 .container-about{
   width: 100%;
@@ -135,28 +138,102 @@ filter: drop-shadow(5px 5px   5px white);
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 10;
+    z-index: 3;
 }
 
 .about{
-  z-index: 1;
-  text-transform: uppercase;
+  width: 500px;
+  height: 500px;
+
+  position:relative;
+  float: right;
+  right: 150px; 
+  bottom: 600px;
+
+  z-index: 4;
   padding: 1rem;
-  border: 5px solid black;
-  right: 20%;
-  top: 15%;
+
+  border: 0px solid black;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 2px 2px 30px #900ce7;
+  transition: all 0.4s ease;
+}
+
+.about:hover{
+  transform: perspective(1000px) translate3d(10px, 0, 100px);
+  transition: all 0.8s ease;
 }
 
 .about h2{
-right: 20%;
-top: 15%;
+margin-top: 7%;
+right:35%;
 letter-spacing: 3px;
+font-family: 'Courier New', Courier, monospace, sans-serif;
+text-transform: uppercase;
+}
+
+.about p{
+margin-top: 23%;
+font-size: 25px;
+font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+/* Project Page */
+
+.container-project{
+  width: 100%;
+  height: auto;
+  background:#F5F5F5;
+}
+
+.all-images{
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  height: auto;
+  width: 100%;
+  top:-350px;
+  right: 95px;
+  
+}
+
+.all-images h2{
+  position: relative;
+  top: -150px;
+  left: 49%;
+  padding-top: 5rem;
+  color: black; 
+  font-size: 3rem;
+  font-family: "Helvetica Neue", sans-serif;
+  margin-bottom: 100px;
+  
+}
+
+.second-column{
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  height: auto;
+  width: 100%;
+  top:-350px;
+  left: 164px;
+  
+}
+
+.project-img{
+  margin: 10px 15px;
 }
 
 
+.project-img:hover{
+  background: black;
+  opacity: 1;
+}
 
-
-
+/* Animations */
 
 @keyframes pulse {
 	0% {
@@ -174,5 +251,7 @@ letter-spacing: 3px;
 		box-shadow: 0 0 0 0 rgb(69, 152, 27, 50%);
 	}
 	
-}
+};
+
+
 
