@@ -5,11 +5,13 @@
     font-family: 'Roboto', sans-serif;
   }
 
+
   .container{
-    background: red;
+  
     width: 100%;
     height: auto;
     position: relative;
+
   }
 
   .container img{
@@ -23,16 +25,21 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: -1;
   }
 
-  .headerText{
+.headerText h1, h2{
   position: absolute;
   z-index: 1;
-  top: 40%;
-  left: 28%;
   right: auto;
   bottom: auto;
   text-transform: uppercase;
+}
+
+
+  .headerText h1{
+  top: 40%;
+  left: 28%;
   
   color: white;
   letter-spacing: 5px;
@@ -40,7 +47,132 @@
   border: 1px solid white;
   padding: 20px;
   filter: drop-shadow(1px 1px 5px white);
-  font-size: 3.5rem;
+  font-size: 5rem;
+  z-index: 3;
   }
+
+.headerText h2{
+  top: 60%;
+  left: 40%;
+  padding-top: 2rem;
+  color: #900ce7; 
+  filter: drop-shadow(3px 3px 5px white);
+  font-size: 2rem;
+ 
+}
+
+
+#particles-js{
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  opacity: 1;
+}
+
+.nav-bar{
+  position: absolute;
+  left: 10%;
+}
+
+.nav-bar li {
+  display: inline-block;
+  float: left;
+  padding: 2rem;
+  color: white;
+  font-weight: 450;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  z-index: 5;
+  transition: all 0.5s ease-out;
   
+  
+}
+
+.nav-bar li:hover{
+cursor:pointer;
+color: #ffffff; 
+filter: drop-shadow(2px 2px   5px white);
+}
+
+.whatsapp-icon img{
+position: fixed;
+height: 70px;
+width: auto;
+right: 2%;
+bottom: 5%;
+z-index: 20;
+
+	border-radius: 50%;
+	box-shadow: 0 0 0 0 rgb(69, 152, 27);
+	transform: scale(1);
+	animation: pulse 2s infinite;
+
+}
+
+.whatsapp-icon img:hover{
+cursor:pointer;
+color: #45981b; 
+filter: drop-shadow(5px 5px   5px white);
+}
+
+.container-about{
+  width: 100%;
+    height: auto;
+    position: relative;
+    background:white;
+}
+
+.container-about img{
+  width: 100%;
+    height: 100vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+.about{
+  z-index: 1;
+  text-transform: uppercase;
+  padding: 1rem;
+  border: 5px solid black;
+  right: 20%;
+  top: 15%;
+}
+
+.about h2{
+right: 20%;
+top: 15%;
+letter-spacing: 3px;
+}
+
+
+
+
+
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgb(69, 152, 27, 0%);
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 20px rgb(69, 152, 27, 50%);
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgb(69, 152, 27, 50%);
+	}
+	
+}
 
