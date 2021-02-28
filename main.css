@@ -183,7 +183,7 @@ font-family: 'Times New Roman', Times, serif, sans-serif;
 
 .container-project{
   width: 100%;
-  height: auto;
+  height: 110vh;
   background:#F5F5F5;
 }
 
@@ -225,13 +225,71 @@ font-family: 'Times New Roman', Times, serif, sans-serif;
 
 .project-img{
   margin: 10px 15px;
+  box-shadow: 2px 2px 30px #000000;
+  transition: all 0.4s ease;
+  
+}
+
+.project-img:hover{ 
+  transform: perspective(1000px) translate3d(5px, 0, 50px);
+  transition: all 0.8s ease;
+  opacity: .5;
+
+}
+
+/* Technologies*/
+
+.container-tech{
+  background: #ffffff; 
+  width: 100%;
+  height: auto;
+}
+
+.technologies h3{
+  position: relative;
+  top: 100px;
+  left: 36.8%;    
+  color: black; 
+  font-size: 3rem;
+  font-family: "Helvetica Neue", sans-serif;
+  text-transform: uppercase;
+}
+
+.tech-bg{
+  position:relative;
+  bottom: -18px;
+  left: 55px;
+  z-index: 2;
+  width: 850px;
+  height: auto;
+  transition: all 0.4s ease;
+}
+
+.tech-bg:hover{
+  transform: perspective(1000px) translate3d(-25px, 10px, 100px);
+  transition: all 0.8s ease;
+  cursor: pointer;
+}
+
+.tech-pc{
+  position:relative;
+  width: 1000px;
+  height: auto;
+  bottom: 420px;
+  left: 16.5%;
+  z-index: 1;
+}
+
+/* Contact */
+
+.container-contact{
+  background:#F5F5F5;
+  width: 100%;
+  height: auto;
 }
 
 
-.project-img:hover{
-  background: black;
-  opacity: 1;
-}
+
 
 /* Animations */
 
@@ -252,6 +310,8 @@ font-family: 'Times New Roman', Times, serif, sans-serif;
 	}
 	
 };
+
+
 
 
 
