@@ -3,11 +3,11 @@
     padding: 0;
     box-sizing: border-box; 
     font-family: 'Roboto', sans-serif;
-    
   }
 
   body{
     overflow-x: hidden;
+    background: #ffffff;
   }
 
 /* Home page */
@@ -141,6 +141,15 @@ filter: drop-shadow(5px 5px   5px white);
     z-index: 3;
 }
 
+.about-background img{
+position: relative;
+z-index: 1;
+width: 1550px;
+height: 727px;
+bottom: 1227px;
+left: 0px;
+}
+
 .about{
   width: 500px;
   height: 500px;
@@ -171,21 +180,34 @@ right:35%;
 letter-spacing: 3px;
 font-family: 'Courier New', Courier, monospace, sans-serif;
 text-transform: uppercase;
+color: white;
 }
 
 .about p{
 margin-top: 23%;
 font-size: 25px;
 font-family: 'Times New Roman', Times, serif, sans-serif;
+color: white;
+transition: all 0.4s ease;
 }
+
+.about p:hover{
+  margin-top: 23%;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  color: rgb(255, 255, 255);
+  filter: drop-shadow(5px 5px  20px white);
+  transition: all 0.8s ease;
+  }
 
 /* Project Page */
 
 .container-project{
   width: 100%;
-  height: 110vh;
-  background:#F5F5F5;
+  height: auto;
+  
 }
+
 
 .all-images{
   position: relative;
@@ -194,7 +216,7 @@ font-family: 'Times New Roman', Times, serif, sans-serif;
   padding: 1rem;
   height: auto;
   width: 100%;
-  top:-350px;
+  top:-1050px;
   right: 95px;
   
 }
@@ -218,7 +240,7 @@ font-family: 'Times New Roman', Times, serif, sans-serif;
   padding: 1rem;
   height: auto;
   width: 100%;
-  top:-350px;
+  top:-1020px;
   left: 164px;
   
 }
@@ -241,23 +263,25 @@ font-family: 'Times New Roman', Times, serif, sans-serif;
 
 .container-tech{
   background: #ffffff; 
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 100%;
 }
 
 .technologies h3{
   position: relative;
-  top: 100px;
+  top: -800px;
   left: 36.8%;    
-  color: black; 
+  color: #ffffff; 
   font-size: 3rem;
   font-family: "Helvetica Neue", sans-serif;
   text-transform: uppercase;
+  z-index: 10;
+  filter: drop-shadow(1px 1px 5px white);
 }
 
 .tech-bg{
   position:relative;
-  bottom: -18px;
+  bottom: 850px;
   left: 55px;
   z-index: 2;
   width: 850px;
@@ -275,19 +299,26 @@ font-family: 'Times New Roman', Times, serif, sans-serif;
   position:relative;
   width: 1000px;
   height: auto;
-  bottom: 420px;
+  bottom: 2320px;
   left: 16.5%;
   z-index: 1;
 }
 
-/* Contact */
-
-.container-contact{
-  background:#F5F5F5;
-  width: 100%;
-  height: auto;
+.background-star img{
+  position: relative;
+  width: 1550px;
+  height: 100%;
+  bottom: 1500px;
+  z-index: 1;
 }
 
+/* Contact */
+.container-contact{
+  margin-top: 0;
+margin-bottom: 0;
+margin-left: auto;
+margin-right: auto;
+}
 
 
 
