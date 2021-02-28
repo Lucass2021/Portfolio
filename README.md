@@ -20,9 +20,13 @@
 
 ## 💻 Project
 
-* <b>Clock</b>: Feature made with basic JavaScript
-* <b>Background</b>: Change colors to black and white
-* <b>Body</b>: Add body and header content <br>
+* <b>Nav bar</b>: Upgrade Nav bar
+* <b>Projects</b>: Upgrade Projects hover
+* <b>Night mode</b>: Toogle night mode
+* <b>Effects</b>: Add effects in texts
+* <b>Responsivity</b>: Add and Improve responsivity
+* <b>Contacts</b>: Finish contacts 
+* <b>Local Storage</b>: Add in local web storage
 This project is currently under <b>development.</b>
 <h1 align="center">
     <img src="read01.PNG"/>
@@ -51,10 +55,13 @@ This project is currently under <b>development.</b>
 
 ## :heavy_check_mark: To do list
 
-- Add Projects
-- Add Header
-- Add Body Content
-- Add Design Formatation (UX)
+* <b>Nav bar</b>: Upgrade Nav bar
+* <b>Projects</b>: Upgrade Projects hover
+* <b>Night mode</b>: Toogle night mode
+* <b>Effects</b>: Add effects in texts
+* <b>Responsivity</b>: Add and Improve responsivity
+* <b>Contacts</b>: Finish contacts 
+* <b>Local Storage</b>: Add in local web storage
 
 ---
 
