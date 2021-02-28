@@ -287,6 +287,7 @@ transition: all 0.4s ease;
   width: 850px;
   height: auto;
   transition: all 0.4s ease;
+  margin-bottom: 0px;
 }
 
 .tech-bg:hover{
@@ -302,6 +303,7 @@ transition: all 0.4s ease;
   bottom: 2320px;
   left: 16.5%;
   z-index: 1;
+  margin-bottom: 0px;
 }
 
 .background-star img{
@@ -310,17 +312,96 @@ transition: all 0.4s ease;
   height: 100%;
   bottom: 1500px;
   z-index: 1;
+  margin-bottom: 0px;
 }
 
 /* Contact */
 .container-contact{
-  margin-top: 0;
-margin-bottom: 0;
-margin-left: auto;
-margin-right: auto;
+  position: relative;
+  bottom: 2170px;
+  background:#ebebeb;
+  width: 100%;
+  height: 800px;
 }
 
+.redes-sociais{
+position: relative;
+}
 
+.redes-sociais h2{
+  position: absolute;
+ left: 39.5%;
+ bottom: -100px;
+ font-size: 3rem;
+}
+
+.redes-sociais p{
+  position: absolute;
+  left: 45%;
+  bottom: -150px;
+  font-size: 2rem;
+ }
+
+.whatsapp-contact img{
+position: relative;
+left: 40%;
+bottom: -200px;
+}
+.email-contact img{
+position: relative;
+left: 46%;
+bottom: -140px;
+}
+.linkedin-contact img{
+position: relative;
+left: 52%;
+bottom: -78px;
+}
+
+.github-contact img{
+  position: relative;
+  left: 57%;
+  bottom: -14px; 
+}
+
+.whatsapp-contact img:hover{
+  cursor: pointer;
+}
+
+.email-contact img:hover{
+  cursor: pointer;
+}
+.linkedin-contact img:hover{
+  cursor: pointer;
+}
+.github-contact img:hover{
+  cursor: pointer;
+}
+
+/* Author notes */
+.note-text h2{
+  position: absolute;
+ left: 43%;
+ bottom: 150px;
+ font-size: 2rem;
+}
+
+.note-text p{
+  position: relative;
+text-align: center;
+bottom: -400px
+}
+
+/* footer */
+footer{
+  position: relative;
+  text-align: center;
+  padding: 4rem 0 2rem;
+  font-weight: normal;
+  font-size: 1rem;
+  color: #8e44ad;
+  top: 400px;
+}
 
 /* Animations */
 
